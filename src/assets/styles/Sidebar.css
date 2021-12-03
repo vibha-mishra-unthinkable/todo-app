@@ -1,0 +1,22 @@
+.sidebar {
+  width: 15%;
+  min-height: 100%;
+  position: fixed;
+  top: 10%;
+  /* margin-top: 0; */
+
+  /* overflow-y: scroll; */
+  /* overflow: visible; */
+  /* height: 100%; */
+}
+.sidebarLink {
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5rem;
+}
+.sidebarLink:hover {
+  color: #ffef96;
+}

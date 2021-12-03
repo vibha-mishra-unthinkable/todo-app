@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* app.js */
+nav {
+  background-color: #ffef96;
+  width: 100%;
+}
+.loginSignupLink {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.loginSignup {
+  background-color: #36486b;
+  color: white;
+}
+form {
+  border: 0.2rem solid black;
+  border-radius: 2%;
+}
+.form-group {
+  padding: 1.2rem;
+}
+.buttons {
+  margin-bottom: 0.8rem;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.navbar-text {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.homeConatiner {
+  display: flex;
+}
+.logoutBtn {
+  border: none;
+  margin: 0 1rem;
+  background-color: #36486b;
+  color: white;
+  border-radius: 10%;
+}
+.logoutBtn:hover {
+  box-shadow: 6px -6px 19px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px -6px 19px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px -6px 19px -3px rgba(0, 0, 0, 0.75);
+}
+/* sidebar */
+.sidebar {
+  background-color: #36486b;
+}
+.navLink {
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* feed */
+.sliderImg {
+  height: 100vh;
+}
+.navLinks {
+  display: flex;
+}

@@ -1,0 +1,17 @@
+.cardImg {
+  width: 18rem;
+  height: 12rem;
+}
+.viewProducts {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 80%;
+  left: 15%;
+  top: 10%;
+  /* justify-content: center; */
+}
+.card {
+  width: 18rem;
+}
